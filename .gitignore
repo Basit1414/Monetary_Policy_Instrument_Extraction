@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Secrets and local application state
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
+# Generated local application and evaluation outputs
+outputs/
+*.jsonl
+
+# Reproducible source corpus (downloaded locally from URLs in the manifest)
+data/reports/raw/
+data/reports/extracted/
+data/reports/rendered/

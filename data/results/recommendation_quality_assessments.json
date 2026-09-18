@@ -1,0 +1,1060 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-09-18T23:12:46+00:00",
+  "execution": {
+    "engine": "OpenAI Codex CLI",
+    "model": "gpt-5.6-terra",
+    "reasoning_effort": "medium",
+    "api": "Codex sign-in; no OPENAI_API_KEY used",
+    "prompt_template": "prompts/part_c_recommendation_quality.md",
+    "structured_output_schema": "outputs/reference_inputs/recommendation_quality.schema.json"
+  },
+  "scope": {
+    "reports": 3,
+    "recommendations": 24,
+    "selection": "Eight purposively selected recommendations per report; not a statistical sample."
+  },
+  "validation": {
+    "pydantic_schema": "passed",
+    "report_and_recommendation_ids": "passed",
+    "verbatim_recommendation_text": "passed",
+    "verbatim_evidence_substrings": "passed",
+    "human_adjudication": "not_performed"
+  },
+  "runs": [
+    {
+      "report_id": "azerbaijan_modernizing_central_bank_communication_2025",
+      "country": "Azerbaijan",
+      "recommendation_ids": [
+        "AZE-001",
+        "AZE-002",
+        "AZE-003",
+        "AZE-004",
+        "AZE-005",
+        "AZE-006",
+        "AZE-007",
+        "AZE-008"
+      ],
+      "recommendation_count": 8,
+      "body_printed_pages": "11-37",
+      "source_pdf_sha256": "694ca38116f504e4e0b1ed9b6675e98906170e6f9f92e51ef9dcc8d6332ad1bf",
+      "prompt_path": "outputs/reference_inputs/azerbaijan_modernizing_central_bank_communication_2025.prompt.md",
+      "prompt_sha256": "4751713db0392482170052cfd3017ca8afdd70bff592be21017597e38ad7ccdb"
+    },
+    {
+      "report_id": "ukraine_counterparty_eligibility_and_ela_2025",
+      "country": "Ukraine",
+      "recommendation_ids": [
+        "UKR-001",
+        "UKR-002",
+        "UKR-003",
+        "UKR-004",
+        "UKR-005",
+        "UKR-006",
+        "UKR-007",
+        "UKR-008"
+      ],
+      "recommendation_count": 8,
+      "body_printed_pages": "9-36",
+      "source_pdf_sha256": "81983380a547ac076e241ec2e1907967de67297396808234fe57b44b895326ee",
+      "prompt_path": "outputs/reference_inputs/ukraine_counterparty_eligibility_and_ela_2025.prompt.md",
+      "prompt_sha256": "15cfc77cb9bfc7817ddedc954c4ebbd7296f0805cbf15fa25796a746c160976b"
+    },
+    {
+      "report_id": "sri_lanka_liquidity_monitoring_and_monetary_operations_2024",
+      "country": "Sri Lanka",
+      "recommendation_ids": [
+        "LKA-001",
+        "LKA-002",
+        "LKA-003",
+        "LKA-004",
+        "LKA-005",
+        "LKA-006",
+        "LKA-007",
+        "LKA-008"
+      ],
+      "recommendation_count": 8,
+      "body_printed_pages": "9-32",
+      "source_pdf_sha256": "68a3b3d1057db95b2c2385e4512ae2623887721ff0d7f550b2a5486539f318e4",
+      "prompt_path": "outputs/reference_inputs/sri_lanka_liquidity_monitoring_and_monetary_operations_2024.prompt.md",
+      "prompt_sha256": "54d1b5b5861a8b40143997920fbd9a3f95c2d7a328762e22a703ec67c6f0274e"
+    }
+  ],
+  "results": [
+    {
+      "report_id": "azerbaijan_modernizing_central_bank_communication_2025",
+      "assessments": [
+        {
+          "recommendation_id": "AZE-001",
+          "original_text": "Update and expand CBA Rules on Information Transmission to Media to transform it into Communication Policy.",
+          "specificity": {
+            "score": 3,
+            "justification": "States a clear document-level action and target, but omits the responsible unit, required content, and implementation sequence.",
+            "evidence": [
+              {
+                "quote": "Update and expand CBA Rules on Information Transmission to Media",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "actionability": {
+            "score": 3,
+            "justification": "The core revision is implementable, but the recommendation itself does not specify approval, drafting responsibilities, or required policy components.",
+            "evidence": [
+              {
+                "quote": "transform it into Communication Policy",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "internal_consistency": {
+            "score": 5,
+            "justification": "Directly follows the finding that the existing rules have gaps and need updating, and the report explicitly recommends their expansion into a Communications Policy.",
+            "evidence": [
+              {
+                "quote": "The CBA would benefit from expanding the Rules on Information Transmission to Media",
+                "source": "report_content",
+                "location": "Printed page 15, ¶14"
+              }
+            ]
+          },
+          "overall_score": 3.7,
+          "overall_assessment": "Medium",
+          "evidence_status": "supported"
+        },
+        {
+          "recommendation_id": "AZE-002",
+          "original_text": "Increase the resources of the Communications Division and upgrade its skills mix.",
+          "specificity": {
+            "score": 3,
+            "justification": "Identifies the division and two desired staffing actions, but does not state the scale of resources or the skills required.",
+            "evidence": [
+              {
+                "quote": "Increase the resources of the Communications Division and upgrade its skills mix.",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "actionability": {
+            "score": 3,
+            "justification": "Staffing and skills improvements are implementable, but the recommendation itself lacks positions, staffing levels, or an implementation plan.",
+            "evidence": [
+              {
+                "quote": "Increase the resources of the Communications Division",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "internal_consistency": {
+            "score": 5,
+            "justification": "The report directly identifies limited capacity and specifies the priority staffing and skills additions.",
+            "evidence": [
+              {
+                "quote": "The priority at this time is to add three staff positions dedicated to: (i) content creation; (ii) graphic design; and (iii) creation of video materials.",
+                "source": "report_content",
+                "location": "Printed page 19, ¶20"
+              }
+            ]
+          },
+          "overall_score": 3.7,
+          "overall_assessment": "Medium",
+          "evidence_status": "supported"
+        },
+        {
+          "recommendation_id": "AZE-003",
+          "original_text": "Integrate the Communications Division more closely with other departments and decision-making processes.",
+          "specificity": {
+            "score": 3,
+            "justification": "Names the division and intended institutional relationships, but does not define the forms of integration or responsible decision makers.",
+            "evidence": [
+              {
+                "quote": "Integrate the Communications Division more closely with other departments and decision-making processes.",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "actionability": {
+            "score": 3,
+            "justification": "The organizational change is implementable, but the recommendation itself does not specify participation rules, procedures, or sequencing.",
+            "evidence": [
+              {
+                "quote": "more closely with other departments and decision-making processes",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "internal_consistency": {
+            "score": 5,
+            "justification": "The report directly finds that communications staff are excluded from policy deliberations and calls for their routine inclusion.",
+            "evidence": [
+              {
+                "quote": "CD management and staff should be routinely included in the policy discussions and participate in the drafting of the policy messages.",
+                "source": "report_content",
+                "location": "Printed page 19, ¶21"
+              }
+            ]
+          },
+          "overall_score": 3.7,
+          "overall_assessment": "Medium",
+          "evidence_status": "supported"
+        },
+        {
+          "recommendation_id": "AZE-004",
+          "original_text": "Ensure well-rounded short-, medium- and long-term communications planning.",
+          "specificity": {
+            "score": 3,
+            "justification": "Defines the planning topic and planning horizons, but leaves the plans' content, ownership, and operating cadence unspecified.",
+            "evidence": [
+              {
+                "quote": "short-, medium- and long-term communications planning",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "actionability": {
+            "score": 2,
+            "justification": "It conveys a planning objective, but the recommendation itself provides no concrete planning process, responsible unit, or deliverables.",
+            "evidence": [
+              {
+                "quote": "Ensure well-rounded",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "internal_consistency": {
+            "score": 5,
+            "justification": "The report directly diagnoses the absence of cyclical planning and sets out monthly, annual, and reporting arrangements.",
+            "evidence": [
+              {
+                "quote": "neither the 2024–2026 Communication Strategy nor RITM establish a cyclical communication planning process",
+                "source": "report_content",
+                "location": "Printed page 20, ¶22"
+              }
+            ]
+          },
+          "overall_score": 3.3,
+          "overall_assessment": "Medium",
+          "evidence_status": "supported"
+        },
+        {
+          "recommendation_id": "AZE-005",
+          "original_text": "Accelerate the shift from a reactive to a proactive external communication policy, supported by an internal message management process.",
+          "specificity": {
+            "score": 3,
+            "justification": "Clearly identifies the desired policy shift and supporting process, but omits ownership, operating frequency, and implementation steps.",
+            "evidence": [
+              {
+                "quote": "shift from a reactive to a proactive external communication policy",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "actionability": {
+            "score": 3,
+            "justification": "The central change is implementable, but the recommendation itself needs material clarification on governance and the message-management workflow.",
+            "evidence": [
+              {
+                "quote": "supported by an internal message management process",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "internal_consistency": {
+            "score": 5,
+            "justification": "The report directly finds that the current system is reactive and recommends proactive messaging supported by a formal internal process.",
+            "evidence": [
+              {
+                "quote": "The current system is ill suited for CBA’s intention to take a proactive stance in public communication",
+                "source": "report_content",
+                "location": "Printed page 22, ¶31"
+              }
+            ]
+          },
+          "overall_score": 3.7,
+          "overall_assessment": "Medium",
+          "evidence_status": "supported"
+        },
+        {
+          "recommendation_id": "AZE-006",
+          "original_text": "Establish a framework for the regular assessment of the effectiveness of its communications.",
+          "specificity": {
+            "score": 3,
+            "justification": "Specifies the creation of an assessment framework and its recurring purpose, but does not identify measures, responsible staff, or reporting frequency.",
+            "evidence": [
+              {
+                "quote": "Establish a framework for the regular assessment of the effectiveness of its communications.",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "actionability": {
+            "score": 3,
+            "justification": "Establishing a framework is a feasible core step, but the recommendation itself lacks methods, data requirements, and operational responsibilities.",
+            "evidence": [
+              {
+                "quote": "regular assessment of the effectiveness",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "internal_consistency": {
+            "score": 5,
+            "justification": "The report explicitly finds that monitoring data are not sufficiently analyzed and recommends a regular effectiveness-assessment framework.",
+            "evidence": [
+              {
+                "quote": "the lack of further analysis and assessment of central bank communication effectiveness",
+                "source": "report_content",
+                "location": "Printed page 26, ¶41"
+              }
+            ]
+          },
+          "overall_score": 3.7,
+          "overall_assessment": "Medium",
+          "evidence_status": "supported"
+        },
+        {
+          "recommendation_id": "AZE-007",
+          "original_text": "Elevate the Monetary Policy Review to the role of a flagship publication.",
+          "specificity": {
+            "score": 3,
+            "justification": "Identifies the publication and desired role, but does not state the changes, ownership, publication schedule, or completion criteria.",
+            "evidence": [
+              {
+                "quote": "Elevate the Monetary Policy Review to the role of a flagship publication.",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "actionability": {
+            "score": 3,
+            "justification": "The objective is implementable, but the recommendation itself does not specify how the publication should be redesigned or launched in its new role.",
+            "evidence": [
+              {
+                "quote": "the role of a flagship publication",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "internal_consistency": {
+            "score": 5,
+            "justification": "The report directly recommends making the MPR the main vehicle for monetary policy communication and sets out its intended content and publication arrangements.",
+            "evidence": [
+              {
+                "quote": "The MPR should become the main vehicle for communicating monetary policy.",
+                "source": "report_content",
+                "location": "Printed page 32, ¶67"
+              }
+            ]
+          },
+          "overall_score": 3.7,
+          "overall_assessment": "Medium",
+          "evidence_status": "supported"
+        },
+        {
+          "recommendation_id": "AZE-008",
+          "original_text": "Streamline the monetary policy communication cycle.",
+          "specificity": {
+            "score": 2,
+            "justification": "Identifies a broad organizational action and scope, but leaves the specific cycle changes, owners, timing, and sequence materially unclear.",
+            "evidence": [
+              {
+                "quote": "Streamline the monetary policy communication cycle.",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "actionability": {
+            "score": 2,
+            "justification": "An improvement action is implied, but the recommendation itself lacks implementable steps, dependencies, and accountability.",
+            "evidence": [
+              {
+                "quote": "Streamline",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "internal_consistency": {
+            "score": 5,
+            "justification": "The report directly identifies misalignment and delays in the cycle, then provides a fixed-time routine centered on the MPR.",
+            "evidence": [
+              {
+                "quote": "The monetary policy communication cycle should be built around the MPR publication and have an established fixed-time routine.",
+                "source": "report_content",
+                "location": "Printed page 35, ¶81"
+              }
+            ]
+          },
+          "overall_score": 3.0,
+          "overall_assessment": "Medium",
+          "evidence_status": "supported"
+        }
+      ]
+    },
+    {
+      "report_id": "ukraine_counterparty_eligibility_and_ela_2025",
+      "assessments": [
+        {
+          "recommendation_id": "UKR-001",
+          "original_text": "Amend eligibility criteria for counterparties to participate in MPOs to include financial soundness criteria, rooted in solvency.",
+          "specificity": {
+            "score": 3,
+            "justification": "It specifies the action, affected criteria, counterparties, and solvency-based financial soundness, but not the responsible unit or detailed threshold.",
+            "evidence": [
+              {
+                "quote": "Amend eligibility criteria for counterparties to participate in MPOs to include financial soundness criteria, rooted in solvency.",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "actionability": {
+            "score": 3,
+            "justification": "The regulatory change is implementable, but the criteria, ownership, and implementation sequence require clarification.",
+            "evidence": [
+              {
+                "quote": "include financial soundness criteria, rooted in solvency",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "internal_consistency": {
+            "score": 5,
+            "justification": "The report directly identifies absent financial-soundness criteria and recommends amending the framework to include at least solvency-based criteria.",
+            "evidence": [
+              {
+                "quote": "The framework of rules should hence be amended to include (broad) financial soundness criteria, at least on solvency.",
+                "source": "report_content",
+                "location": "¶33"
+              }
+            ]
+          },
+          "overall_score": 3.7,
+          "overall_assessment": "Medium",
+          "evidence_status": "supported"
+        },
+        {
+          "recommendation_id": "UKR-002",
+          "original_text": "Introduce a new counterparty measure of limitation.",
+          "specificity": {
+            "score": 2,
+            "justification": "It identifies the measure to introduce but does not define its operation, scope, owner, or triggers.",
+            "evidence": [
+              {
+                "quote": "Introduce a new counterparty measure of limitation.",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "actionability": {
+            "score": 3,
+            "justification": "Adding a limitation measure is an implementable core step, but its rules, grace period, and escalation arrangements need material specification.",
+            "evidence": [
+              {
+                "quote": "new counterparty measure of limitation",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "internal_consistency": {
+            "score": 5,
+            "justification": "The report explicitly recommends adding limitation because the NBU can otherwise only suspend counterparties.",
+            "evidence": [
+              {
+                "quote": "The NBU should add the option of limitation to its measures.",
+                "source": "report_content",
+                "location": "¶35"
+              }
+            ]
+          },
+          "overall_score": 3.3,
+          "overall_assessment": "Medium",
+          "evidence_status": "supported"
+        },
+        {
+          "recommendation_id": "UKR-003",
+          "original_text": "Ensure measures regarding counterparties access to monetary policy operations are as automatic as possible, within a framework of rules.",
+          "specificity": {
+            "score": 3,
+            "justification": "It clearly calls for rule-based automatic measures for counterparty access, but does not specify ownership, triggers, or implementation sequence.",
+            "evidence": [
+              {
+                "quote": "as automatic as possible, within a framework of rules",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "actionability": {
+            "score": 3,
+            "justification": "The direction is implementable, but the applicable rules, triggers, and exceptions require material clarification.",
+            "evidence": [
+              {
+                "quote": "Ensure measures regarding counterparties access to monetary policy operations are as automatic as possible",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "internal_consistency": {
+            "score": 5,
+            "justification": "The report directly supports rule-based, automatic application of measures, especially limitation.",
+            "evidence": [
+              {
+                "quote": "Making application of the measures, especially limitation, as rule-based and automatic as possible prevents creating undesired precedents and ensures predictability for counterparties.",
+                "source": "report_content",
+                "location": "¶36"
+              }
+            ]
+          },
+          "overall_score": 3.7,
+          "overall_assessment": "Medium",
+          "evidence_status": "supported"
+        },
+        {
+          "recommendation_id": "UKR-004",
+          "original_text": "Set-up an institutionalized dialogue between banking supervision and markets operations, so counterparties can be pro-actively limited/suspended.",
+          "specificity": {
+            "score": 4,
+            "justification": "It specifies the institutional participants, mechanism, and intended use, with only detailed governance and escalation arrangements absent.",
+            "evidence": [
+              {
+                "quote": "between banking supervision and markets operations, so counterparties can be pro-actively limited/suspended",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "actionability": {
+            "score": 3,
+            "justification": "Establishing the dialogue is concrete, but information flows, decision rights, triggers, and operating cadence require material clarification.",
+            "evidence": [
+              {
+                "quote": "Set-up an institutionalized dialogue between banking supervision and markets operations",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "internal_consistency": {
+            "score": 5,
+            "justification": "The report explicitly calls for an institutionalized IBSD-OMOD dialogue to provide current solvency information and enable prudential measures.",
+            "evidence": [
+              {
+                "quote": "An institutionalized dialogue between Integrated Banking Supervision Department (IBSD) and Open Market Operations Department (OMOD) should be established",
+                "source": "report_content",
+                "location": "¶37"
+              }
+            ]
+          },
+          "overall_score": 4.0,
+          "overall_assessment": "High",
+          "evidence_status": "supported"
+        },
+        {
+          "recommendation_id": "UKR-005",
+          "original_text": "Prepare an implementation strategy and roadmap regarding the new eligibility criteria and measures.",
+          "specificity": {
+            "score": 3,
+            "justification": "It specifies a strategy and roadmap for identified reforms, but lacks an owner, milestones, sequencing, and completion criteria.",
+            "evidence": [
+              {
+                "quote": "Prepare an implementation strategy and roadmap regarding the new eligibility criteria and measures.",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "actionability": {
+            "score": 3,
+            "justification": "Preparing a roadmap is implementable, but its governance, contents, timing, and dependencies need material clarification.",
+            "evidence": [
+              {
+                "quote": "implementation strategy and roadmap",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "internal_consistency": {
+            "score": 4,
+            "justification": "The report supports phasing in the new criteria and measures, while qualifying that short-term financial-stability effects must be prevented and ELA must be available as a backstop.",
+            "evidence": [
+              {
+                "quote": "The NBU can in principle phase in the new counterparty eligibility criteria based on financial soundness and the accompanying measures soon, provided that this does not create negative short-term effects for financial stability.",
+                "source": "report_content",
+                "location": "¶38"
+              }
+            ]
+          },
+          "overall_score": 3.3,
+          "overall_assessment": "Medium",
+          "evidence_status": "partially_supported"
+        },
+        {
+          "recommendation_id": "UKR-006",
+          "original_text": "Set the interest rate on ELA as a fixed spread over the overnight loans rate.",
+          "specificity": {
+            "score": 3,
+            "justification": "It specifies the ELA pricing method and reference rate, but omits the spread amount, responsible owner, and effective date.",
+            "evidence": [
+              {
+                "quote": "as a fixed spread over the overnight loans rate",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "actionability": {
+            "score": 3,
+            "justification": "The pricing-rule change is implementable, but the spread level and formal implementation arrangements need clarification.",
+            "evidence": [
+              {
+                "quote": "Set the interest rate on ELA as a fixed spread",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "internal_consistency": {
+            "score": 5,
+            "justification": "The report directly recommends a fixed spread over the overnight lending facility to preserve ELA's penalty character.",
+            "evidence": [
+              {
+                "quote": "the interest rate on ELA should be defined as a fixed spread (for instance, of 200 bps) over the overnight lending facility and not the key policy rate.",
+                "source": "report_content",
+                "location": "¶58"
+              }
+            ]
+          },
+          "overall_score": 3.7,
+          "overall_assessment": "Medium",
+          "evidence_status": "supported"
+        },
+        {
+          "recommendation_id": "UKR-007",
+          "original_text": "Set the maturity of any ELA loan at up to two weeks.",
+          "specificity": {
+            "score": 3,
+            "justification": "It gives a precise parameter and maximum maturity, but omits the responsible owner and implementation details.",
+            "evidence": [
+              {
+                "quote": "Set the maturity of any ELA loan at up to two weeks.",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "actionability": {
+            "score": 3,
+            "justification": "The maturity cap is directly implementable, but regulatory ownership and transition arrangements are not supplied.",
+            "evidence": [
+              {
+                "quote": "maturity of any ELA loan at up to two weeks",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "internal_consistency": {
+            "score": 5,
+            "justification": "The report explicitly recommends a two-week maximum maturity to support frequent monitoring and conditionality.",
+            "evidence": [
+              {
+                "quote": "The NBU’s ELA regulation should clearly set the maturity of any ELA loan at up to two weeks.",
+                "source": "report_content",
+                "location": "¶60"
+              }
+            ]
+          },
+          "overall_score": 3.7,
+          "overall_assessment": "Medium",
+          "evidence_status": "supported"
+        },
+        {
+          "recommendation_id": "UKR-008",
+          "original_text": "Add collateral accepted for monetary policy operations to the eligible collateral for ELA.",
+          "specificity": {
+            "score": 3,
+            "justification": "It clearly identifies the collateral set to add to ELA eligibility, but omits responsible ownership, haircuts, and implementation sequencing.",
+            "evidence": [
+              {
+                "quote": "Add collateral accepted for monetary policy operations to the eligible collateral for ELA.",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "actionability": {
+            "score": 3,
+            "justification": "The eligibility expansion is implementable, but the applicable haircuts, valuation rules, and regulatory amendments require clarification.",
+            "evidence": [
+              {
+                "quote": "Add collateral accepted for monetary policy operations",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "internal_consistency": {
+            "score": 5,
+            "justification": "The report directly recommends accepting all MPO collateral for ELA, with appropriate haircuts.",
+            "evidence": [
+              {
+                "quote": "The NBU should add the collateral accepted for monetary policy operations to the eligible collateral for ELA, with an appropriate haircut.",
+                "source": "report_content",
+                "location": "¶65"
+              }
+            ]
+          },
+          "overall_score": 3.7,
+          "overall_assessment": "Medium",
+          "evidence_status": "supported"
+        }
+      ]
+    },
+    {
+      "report_id": "sri_lanka_liquidity_monitoring_and_monetary_operations_2024",
+      "assessments": [
+        {
+          "recommendation_id": "LKA-001",
+          "original_text": "Elaborate and approve road map for modernizing monetary policy operational framework.",
+          "specificity": {
+            "score": 3,
+            "justification": "It specifies developing and approving a roadmap and its subject, but omits the approving authority, detailed scope, and sequencing.",
+            "evidence": [
+              {
+                "quote": "Elaborate and approve road map for modernizing monetary policy operational framework.",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "actionability": {
+            "score": 3,
+            "justification": "Developing and approving a roadmap is implementable, but the responsible unit, approval route, and roadmap contents require clarification.",
+            "evidence": [
+              {
+                "quote": "Elaborate and approve road map",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "internal_consistency": {
+            "score": 5,
+            "justification": "The body explicitly proposes elaborating the roadmap and submitting it to the Monetary Board for approval as an immediate-stage action.",
+            "evidence": [
+              {
+                "quote": "elaborate the road map based on the mission’s recommendations and submit it for approval by the Monetary Board.",
+                "source": "report_content",
+                "location": "¶24"
+              }
+            ]
+          },
+          "overall_score": 3.7,
+          "overall_assessment": "Medium",
+          "evidence_status": "supported"
+        },
+        {
+          "recommendation_id": "LKA-002",
+          "original_text": "Remove restrictions for access to standing facilities.",
+          "specificity": {
+            "score": 3,
+            "justification": "It clearly identifies the action and instrument, but does not specify which restrictions, responsible authority, or implementation process.",
+            "evidence": [
+              {
+                "quote": "Remove restrictions for access to standing facilities.",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "actionability": {
+            "score": 3,
+            "justification": "The core change is implementable, but the restrictions to repeal and operational steps are not stated.",
+            "evidence": [
+              {
+                "quote": "Remove restrictions",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "internal_consistency": {
+            "score": 5,
+            "justification": "The body explicitly recommends abolishing the administrative restrictions at the immediate stage.",
+            "evidence": [
+              {
+                "quote": "Restrictions on access to standing facilities should be abolished at this immediate stage.",
+                "source": "report_content",
+                "location": "¶29"
+              }
+            ]
+          },
+          "overall_score": 3.7,
+          "overall_assessment": "Medium",
+          "evidence_status": "supported"
+        },
+        {
+          "recommendation_id": "LKA-003",
+          "original_text": "Widen IRC to encourage interbank activity and redistribute liquidity in the system .",
+          "specificity": {
+            "score": 3,
+            "justification": "The action, instrument, and intended outcomes are clear, but the required corridor width, owner, and calibration are absent.",
+            "evidence": [
+              {
+                "quote": "Widen IRC to encourage interbank activity and redistribute liquidity in the system .",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "actionability": {
+            "score": 3,
+            "justification": "Widening the corridor is a concrete policy action, but the magnitude and operational decision process need material clarification.",
+            "evidence": [
+              {
+                "quote": "Widen IRC",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "internal_consistency": {
+            "score": 5,
+            "justification": "The report supports widening the corridor in the first stage to redistribute liquidity through collateralized transactions and reduce standing-facility use.",
+            "evidence": [
+              {
+                "quote": "widening corridor will help to redistribute liquidity via collateralized transactions.",
+                "source": "report_content",
+                "location": "¶31"
+              }
+            ]
+          },
+          "overall_score": 3.7,
+          "overall_assessment": "Medium",
+          "evidence_status": "supported"
+        },
+        {
+          "recommendation_id": "LKA-004",
+          "original_text": "Operationalize the ELA framework .",
+          "specificity": {
+            "score": 2,
+            "justification": "It identifies the framework to operationalize, but omits responsible actors, scope, procedures, and timing.",
+            "evidence": [
+              {
+                "quote": "Operationalize the ELA framework .",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "actionability": {
+            "score": 2,
+            "justification": "The intended action is identifiable, but the necessary design, governance, funding, and coordination steps are not specified.",
+            "evidence": [
+              {
+                "quote": "Operationalize the ELA framework",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "internal_consistency": {
+            "score": 5,
+            "justification": "The body states that successful modernization necessitates an operational ELA framework and describes its role in separating troubled banks from standard OMOs.",
+            "evidence": [
+              {
+                "quote": "A successful modernization of the monetary policy framework will necessitate an operational ELA framework",
+                "source": "report_content",
+                "location": "¶26"
+              }
+            ]
+          },
+          "overall_score": 3.0,
+          "overall_assessment": "Medium",
+          "evidence_status": "supported"
+        },
+        {
+          "recommendation_id": "LKA-005",
+          "original_text": "Introduce SRR for FX liabilities in foreign currency .",
+          "specificity": {
+            "score": 3,
+            "justification": "It clearly specifies introducing SRR for FX liabilities and the fulfillment currency, but omits the implementing authority, calibration, and condition for introduction.",
+            "evidence": [
+              {
+                "quote": "Introduce SRR for FX liabilities in foreign currency .",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "actionability": {
+            "score": 3,
+            "justification": "The core policy action is implementable, but its rate, safeguards, and stated preconditions require material clarification.",
+            "evidence": [
+              {
+                "quote": "SRR for FX liabilities in foreign currency",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "internal_consistency": {
+            "score": 4,
+            "justification": "The report recommends this measure for dedollarization and requires fulfillment in foreign currency, but conditions implementation on an improved financial-system situation.",
+            "evidence": [
+              {
+                "quote": "an improved situation in the financial system will allow banks to allocate enough FX liquidity to fulfill SRR in foreign currency.",
+                "source": "report_content",
+                "location": "¶42"
+              }
+            ]
+          },
+          "overall_score": 3.3,
+          "overall_assessment": "Medium",
+          "evidence_status": "partially_supported"
+        },
+        {
+          "recommendation_id": "LKA-006",
+          "original_text": "Introduce fine tuning operations if (please add the conditions here).",
+          "specificity": {
+            "score": 2,
+            "justification": "It identifies fine-tuning operations but leaves the triggering conditions explicitly unspecified.",
+            "evidence": [
+              {
+                "quote": "Introduce fine tuning operations if (please add the conditions here).",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "actionability": {
+            "score": 2,
+            "justification": "An action is named, but its conditions for use are missing, preventing an operationally complete instruction.",
+            "evidence": [
+              {
+                "quote": "please add the conditions here",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "internal_consistency": {
+            "score": 5,
+            "justification": "The report explicitly states that fine-tuning operations should address sudden autonomous-factor changes not captured in liquidity forecasts.",
+            "evidence": [
+              {
+                "quote": "Fine tuning operations should be employed to address the impact of sudden changes in autonomy factors which are not captured in the liquidity forecasts.",
+                "source": "report_content",
+                "location": "¶38"
+              }
+            ]
+          },
+          "overall_score": 3.0,
+          "overall_assessment": "Medium",
+          "evidence_status": "supported"
+        },
+        {
+          "recommendation_id": "LKA-007",
+          "original_text": "Develop a comprehensive liquidity monitoring table with clear presentation of autonomous factors and CBSL liquidity operations.",
+          "specificity": {
+            "score": 4,
+            "justification": "It specifies the deliverable and its required content and presentation; only ownership, format details, and completion criteria are absent.",
+            "evidence": [
+              {
+                "quote": "Develop a comprehensive liquidity monitoring table with clear presentation of autonomous factors and CBSL liquidity operations.",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "actionability": {
+            "score": 3,
+            "justification": "The deliverable is concrete, but implementation responsibilities, data sources, and adoption steps are not specified.",
+            "evidence": [
+              {
+                "quote": "Develop a comprehensive liquidity monitoring table",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "internal_consistency": {
+            "score": 5,
+            "justification": "The report proposes an alternative table that presents autonomous factors first and CBSL liquidity actions next, with a main summary table and detailed sub-sheets.",
+            "evidence": [
+              {
+                "quote": "The autonomous factors will be presented and summarized as the first bloc of liquidity impact and the liquidity effect of all actions by the CBSL will follow.",
+                "source": "report_content",
+                "location": "¶63"
+              }
+            ]
+          },
+          "overall_score": 4.0,
+          "overall_assessment": "High",
+          "evidence_status": "supported"
+        },
+        {
+          "recommendation_id": "LKA-008",
+          "original_text": "Introduce single policy rate as mid-rate for interest rate corridor.",
+          "specificity": {
+            "score": 3,
+            "justification": "It specifies the policy change and intended placement within the corridor, but omits ownership, transition details, and timing.",
+            "evidence": [
+              {
+                "quote": "Introduce single policy rate as mid-rate for interest rate corridor.",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "actionability": {
+            "score": 3,
+            "justification": "The policy change is implementable, but the process for replacing the two rates and communicating the transition is unspecified.",
+            "evidence": [
+              {
+                "quote": "Introduce single policy rate",
+                "source": "recommendations",
+                "location": null
+              }
+            ]
+          },
+          "internal_consistency": {
+            "score": 5,
+            "justification": "The report proposes replacing the two policy rates with a single rate to strengthen signaling and steer market rates toward the desired level.",
+            "evidence": [
+              {
+                "quote": "The mission proposes to replace the two policy rates with a single one",
+                "source": "report_content",
+                "location": "¶27"
+              }
+            ]
+          },
+          "overall_score": 3.7,
+          "overall_assessment": "Medium",
+          "evidence_status": "supported"
+        }
+      ]
+    }
+  ]
+}

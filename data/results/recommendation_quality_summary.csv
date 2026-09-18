@@ -1,0 +1,4 @@
+report_id,country,n_recommendations,mean_specificity,mean_actionability,mean_internal_consistency,mean_overall,high_count,medium_count,low_count,supported_count,partially_supported_count,contradicted_count,not_enough_information_count
+azerbaijan_modernizing_central_bank_communication_2025,Azerbaijan,8,2.88,2.75,5,3.56,0,8,0,8,0,0,0
+ukraine_counterparty_eligibility_and_ela_2025,Ukraine,8,3,3,4.88,3.64,1,7,0,7,1,0,0
+sri_lanka_liquidity_monitoring_and_monetary_operations_2024,Sri Lanka,8,2.88,2.75,4.88,3.51,1,7,0,7,1,0,0

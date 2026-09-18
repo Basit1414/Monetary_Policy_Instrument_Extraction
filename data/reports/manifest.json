@@ -1,0 +1,73 @@
+[
+  {
+    "slug": "azerbaijan_modernizing_central_bank_communication_2025",
+    "title": "Republic of Azerbaijan: Technical Assistance Report-Modernizing Central Bank Communication",
+    "country": "Azerbaijan",
+    "publication_date": "2025-02-12",
+    "landing_url": "https://www.imf.org/en/publications/technical-assistance-reports/issues/2025/02/12/azerbaijan-technical-assistance-report-modernizing-central-bank-communication-561816",
+    "pdf_url": "https://www.imf.org/-/media/files/publications/tar/2025/english/tarea2025013-print-pdf.pdf",
+    "accessed_at": "2026-09-18T23:05:54+00:00",
+    "report_page_count": 46,
+    "recommendation_printed_pages": [
+      10
+    ],
+    "recommendation_pdf_page_indices": [
+      9
+    ],
+    "body_pages": "11-37",
+    "sha256": "694ca38116f504e4e0b1ed9b6675e98906170e6f9f92e51ef9dcc8d6332ad1bf",
+    "raw_pdf_path": "data/reports/raw/azerbaijan_modernizing_central_bank_communication_2025.pdf",
+    "extracted_text_path": "data/reports/extracted/azerbaijan_modernizing_central_bank_communication_2025.txt",
+    "extracted_pages_json_path": "data/reports/extracted/azerbaijan_modernizing_central_bank_communication_2025.pages.json",
+    "extraction_engine": "pdfplumber 0.11.9",
+    "notes": "Authoritative IMF-hosted source; printed page numbers were checked against the rendered recommendation pages."
+  },
+  {
+    "slug": "ukraine_counterparty_eligibility_and_ela_2025",
+    "title": "Ukraine: Technical Assistance Report-Review of the Counterparty Eligibility for Monetary Policy Operations and the Emergency Liquidity Assistance Framework",
+    "country": "Ukraine",
+    "publication_date": "2025-06-25",
+    "landing_url": "https://www.imf.org/en/publications/technical-assistance-reports/issues/2025/06/25/ukraine-technical-assistance-report-review-of-the-counterparty-eligibility-for-monetary-568011",
+    "pdf_url": "https://www.imf.org/-/media/files/publications/tar/2025/english/tarea2025067-print-pdf.pdf",
+    "accessed_at": "2026-09-18T23:05:54+00:00",
+    "report_page_count": 38,
+    "recommendation_printed_pages": [
+      8
+    ],
+    "recommendation_pdf_page_indices": [
+      7
+    ],
+    "body_pages": "9-36",
+    "sha256": "81983380a547ac076e241ec2e1907967de67297396808234fe57b44b895326ee",
+    "raw_pdf_path": "data/reports/raw/ukraine_counterparty_eligibility_and_ela_2025.pdf",
+    "extracted_text_path": "data/reports/extracted/ukraine_counterparty_eligibility_and_ela_2025.txt",
+    "extracted_pages_json_path": "data/reports/extracted/ukraine_counterparty_eligibility_and_ela_2025.pages.json",
+    "extraction_engine": "pdfplumber 0.11.9",
+    "notes": "Authoritative IMF-hosted source; printed page numbers were checked against the rendered recommendation pages."
+  },
+  {
+    "slug": "sri_lanka_liquidity_monitoring_and_monetary_operations_2024",
+    "title": "Sri Lanka: Technical Assistance Report-Liquidity Monitoring and Monetary Operations",
+    "country": "Sri Lanka",
+    "publication_date": "2024-09-20",
+    "landing_url": "https://www.elibrary.imf.org/view/journals/019/2024/078/019.2024.issue-078-en.xml",
+    "pdf_url": "https://www.imf.org/-/media/files/publications/tar/2024/english/tarea2024078-print-pdf.pdf",
+    "accessed_at": "2026-09-18T23:05:54+00:00",
+    "report_page_count": 35,
+    "recommendation_printed_pages": [
+      7,
+      8
+    ],
+    "recommendation_pdf_page_indices": [
+      6,
+      7
+    ],
+    "body_pages": "9-32",
+    "sha256": "68a3b3d1057db95b2c2385e4512ae2623887721ff0d7f550b2a5486539f318e4",
+    "raw_pdf_path": "data/reports/raw/sri_lanka_liquidity_monitoring_and_monetary_operations_2024.pdf",
+    "extracted_text_path": "data/reports/extracted/sri_lanka_liquidity_monitoring_and_monetary_operations_2024.txt",
+    "extracted_pages_json_path": "data/reports/extracted/sri_lanka_liquidity_monitoring_and_monetary_operations_2024.pages.json",
+    "extraction_engine": "pdfplumber 0.11.9",
+    "notes": "Authoritative IMF-hosted source; printed page numbers were checked against the rendered recommendation pages."
+  }
+]

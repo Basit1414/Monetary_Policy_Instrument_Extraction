@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "monetary-policy-instrument-extraction"
+version = "0.1.0"
+description = "Structured monetary-policy extraction and review tasks with a local Streamlit UI."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "openai>=1.66.0",
+  "pydantic>=2.9,<3",
+  "socksio>=1.0,<2",
+  "streamlit>=1.39",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3",
+  "ruff>=0.8",
+]
+analysis = [
+  "matplotlib>=3.8",
+  "nbclient>=0.10",
+  "nbformat>=5.10",
+  "numpy>=1.26",
+  "pandas>=2.2",
+  "pdfplumber>=0.11",
+  "pypdf>=5.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
